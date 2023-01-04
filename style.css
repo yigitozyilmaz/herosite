@@ -73,6 +73,7 @@
 }
 .center .buttons {
   margin: 35px 280px;
+  padding-left: 75px;
 }
 .buttons button {
   height: 50px;
@@ -85,17 +86,35 @@
   cursor: pointer;
   outline: none;
   border-radius: 25px;
+  position: fixed;
 }
 .buttons button:hover {
   background: #fff;
 }
 .logo img {
-  height: 50px;
-  width: 50px;
+  float: left;
+  height: 100px;
+  width: 100px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px 5px 5px 5px;
   padding-left: 1px;
   padding-top: 20px;
   margin-left: 50px;
+}
+.logoright {
+  height: 100px;
+  width: 100px;
+}
+.logoleft {
+  height: 100px;
+  width: 100px;
+}
+.siralama {
+  padding-left: 80%;
+  background-color: whitesmoke;
+}
+.siralama-logo-top {
+  padding-left: 70px;
+  height: 120px;
 }
